@@ -1,0 +1,153 @@
+{
+    "vesselName": {
+        "type": "string"
+    },
+    "voyegeNumber": {
+        "type": "string"
+    },
+    "blNumber": {
+        "type": "string"
+    },
+    "principal": {
+        "type": "string"
+    },
+    "portOfLoading": {
+        "type": "string"
+    },
+    "arrivalTime": {
+        "type": "string"
+    },
+    "portOfDischarge": {
+        "type": "string"
+    },
+    "finalPlaceOfDelivery": {
+        "type": "string"
+    },
+    "agentName": {
+        "type": "string"
+    },
+    "detentionFreeDays": {
+        "type": "string"
+    },
+    "documents": {
+      "type": "object",
+      "properties": {
+        "documentToCollect": {
+            "type": "string"
+        },
+        "igmNumber": {
+            "type": "string"
+        },
+        "igmDate": {
+          "type": "string"
+        },
+        "emailAddress": {
+          "type": "string"
+        },
+        "uploaddocuments": {
+          "type": "string"
+        }
+      }
+    },
+    "stackholderInformation": {
+        "type": "array",
+        "items": {
+          "properties": {
+            "businessEntityType": {
+              "type": "string"
+            },
+            "companyName": {
+              "type": "string"
+            },
+            "pointOfContact": {
+              "type": "string"
+            },
+            "emailAddress": {
+              "type": "string"
+            },
+            "addressDetails": {
+                "type": "string"
+              }
+          }
+        }
+    },
+    "lineItemDetails": {
+        "type": "object",
+        "properties": {
+          "seqNo": {
+            "type": "string"
+          },
+          "containerNumber": {
+            "type": "string"
+          },
+          "containerType": {
+            "type": "string"
+          },
+          "LineSerialNo": {
+            "type": "string"
+          },
+          "grossWeight": {
+            "type": "string"
+          },
+          "productName": {
+            "type": "string"
+          },
+          "noOfPackages": {
+            "type": "string"
+          },
+          "handlingUnitType": {
+            "type": "string"
+          },
+          "cubicMeterCube": {
+            "type": "string"
+          },
+          "cargoStatus": {
+            "type": "string"
+          }         
+        }
+      },
+    "deliveryInfo": {
+        "type": "object",
+        "properties": {
+          "consignee": {
+            "type": "string",
+            "optional": true
+          },
+          "businessEntityType": {
+            "type": "string",
+            "optional": true
+          },
+          "pointOfContact": {
+            "type": "string",
+            "optional": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "optional": true
+          },
+          "addressDetails": {
+            "type": "string",
+            "optional": true
+          }
+          
+        }
+    },
+    "returnContainerInfo": {
+        "type": "object",
+        "properties": {
+          "emptyReturnYardName": {
+            "type": "string"
+          },
+          "pointOfContact": {
+            "type": "string"
+          },
+          "emailAddress": {
+            "type": "string"
+          },
+          "addressDetails": {
+            "type": "string"
+          }         
+        }
+      }
+  }
+  

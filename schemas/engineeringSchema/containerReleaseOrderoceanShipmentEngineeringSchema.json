@@ -1,0 +1,217 @@
+{
+    "bookingId": {
+        "type": "string"
+    },
+    "transitInfo": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "portType": {
+            "type": "string"
+          },
+          "pointOfContact": {
+            "type": "string"
+          },
+          "emailAddress": {
+            "type": "string"
+          },
+          "estimatedTime": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "releaseOrderInformation": {
+        "type": "array",
+        "items": {
+          "properties": {
+            "businessEntityType": {
+              "type": "string"
+            },
+            "locationType": {
+              "type": "string"
+            },
+            "pointOfContact": {
+              "type": "string"
+            },
+            "emailAddress": {
+              "type": "string"
+            }
+          }
+        }
+      },
+    "carrierAssignment": {
+      "type": "object",
+      "properties": {
+        "carrierName": {
+          "type": "number"
+        },
+        "truckNumber": {
+          "type": "string"
+        },
+        "trailerNumber": {
+          "type": "string"
+        },
+        "driverName": {
+          "type": "string"
+        },
+        "contactNumber": {
+          "type": "string"
+        },
+        "shippingInstruction": {
+          "type": "string"
+        },
+        "transporterInstruction": {
+          "type": "string"
+        }
+      }
+    },
+    "internalApproverWorkFlow": {
+        "type": "object",
+        "properties": {
+          "approverName": {
+            "type": "string"
+          },
+          "emailAddress": {
+            "type": "string"
+          }
+        }
+    },
+    "vessel&DeliveryInformation": {
+        "type": "object",
+        "properties": {
+          "vesselName": {
+            "type": "number"
+          },
+          "voyegeNumber": {
+            "type": "string"
+          },
+          "shippingLine": {
+            "type": "string"
+          },
+          "transhipmentVesselName": {
+            "type": "string"
+          },
+          "transhipmentVoyageName": {
+            "type": "string"
+          },
+          "transhipmentShippingLine": {
+            "type": "string"
+          },
+          "finalPlaceOfDelivery": {
+            "type": "string"
+          },
+          "closingTime": {
+            "type": "string"
+          }
+        }
+      },
+    "cargoDetails": {
+      "type": "object",
+      "properties": {
+        "containerNumber": {
+          "type": "string",
+          "optional": true
+        },
+        "shippingLine": {
+          "type": "string",
+          "optional": true
+        },
+        "loadServiceType": {
+          "type": "string",
+          "optional": true
+        },
+        "containerType": {
+          "type": "string",
+          "optional": true
+        },
+        "containerSize": {
+          "type": "string",
+          "optional": true
+        },
+        "containerCapacity": {
+          "type": "string",
+          "optional": true
+        },
+        "cargoCategory": {
+          "type": "string",
+          "optional": true
+        },
+        "productName": {
+          "type": "string",
+          "optional": true
+        },
+        "imoClass": {
+          "type": "string",
+          "optional": true
+        },
+        "minimiumTemperature": {
+          "type": "string",
+          "optional": true
+        },
+        "maxmiumTemperature": {
+          "type": "string",
+          "optional": true
+        },
+        "unNumber": {
+          "type": "string",
+          "optional": true
+        },
+        "additionalCargoInfo": {
+          "type": "string",
+          "optional": true
+        },
+        "manifestRemarks": {
+            "type": "string",
+            "optional": true
+        },
+        "marksAndNotes": {
+            "type": "string",
+            "optional": true
+        },
+        "cargoDescription": {
+            "type": "string",
+            "optional": true
+          }
+  
+      }
+    },
+    "bookingVendorDetails": {
+      "type": "object",
+      "properties": {
+        "businessEntityType": {
+          "type": "string"
+        },
+        "companyName": {
+          "type": "string"
+        },
+        "pointOfContact": {
+          "type": "string"
+        },
+        "emailAddress": {
+          "type": "string"
+        }
+      }
+    },
+    "stackholderInformation": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "businessEntityType": {
+            "type": "string"
+          },
+          "companyName": {
+            "type": "string"
+          },
+          "pointOfContact": {
+            "type": "string"
+          },
+          "emailAddress": {
+            "type": "string"
+          }
+        }
+      }
+    }
+   
+  }
+  

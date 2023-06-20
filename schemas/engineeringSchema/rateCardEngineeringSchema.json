@@ -1,0 +1,53 @@
+{
+    "dateValidFrom": {
+        "type": "string"
+    },
+    "dateValidTo": {
+        "type": "string"
+    },
+    "releaseOrderInformation": {
+        "type": "array",
+        "items": {
+          "properties": {
+            "chargesType": {
+              "type": "string"
+            },
+            "containerType": {
+              "type": "string"
+            },
+            "weight": {
+              "type": "string"
+            },
+            "amount": {
+              "type": "number"
+            },
+            "commodity": {
+                "type": "string"
+            }
+          }
+        }
+      },
+    "laneDetails": {
+      "type": "object",
+      "properties": {
+        "portOfLoading": {
+          "type": "number"
+        },
+        "transhipment": {
+          "type": "string"
+        },
+        "portOfDischarge": {
+          "type": "string"
+        }
+      }
+    },
+    "supplyChainPartner": {
+        "type": "object",
+        "properties": {
+          "partnerCompanyName": {
+            "type": "string"
+          }
+        }
+    } 
+  }
+  

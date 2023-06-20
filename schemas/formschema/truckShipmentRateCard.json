@@ -1,0 +1,1727 @@
+{
+    "formName": "Rate Card",
+    "l8n": {
+        "en_EN": {
+            "label": "Rate Card"
+        },
+        "en_DE": {
+            "label": ""
+        }
+    },
+    "formId": "613ee9420fda1a45fc000c5",
+    "componentName": "base",
+    "regionName": "North America",
+    "countryName": "All",
+    "companyId": [],
+    "formDetails": {
+        "sections": [
+            {
+                "sectionName": "",
+                "sectionTitle": "",
+                "sectionId": "main",
+                "sectionType": "Object",
+                "visibility": "true",
+                "sectionPosition": "1",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [
+                    {
+                        "label": "Category",
+                        "name": "category",
+                        "placeholder": "Category",
+                        "widget": "selectTextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "false",
+                        "dataSource": {
+                            "databaseName": "settylprod",
+                            "collectionName": "optionset",
+                            "optionName": "truckShipmentCategory",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Category"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },{
+                        "label": "Load Type Services",
+                        "name": "loadTypeServices",
+                        "placeholder": "Load Type Services",
+                        "widget": "selectTextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "false",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Load Type Services"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Container Type",
+                        "name": "containerType",
+                        "placeholder": "Container Type",
+                        "widget": "selecttextfield",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "false",
+                        "dataSource": {
+                            "databaseName": "settylprod",
+                            "collectionName": "optionset",
+                            "optionName": "containerType",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Container Type"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Date Valid From",
+                        "name": "dateValidFrom",
+                        "placeholder": "Date Valid From",
+                        "widget": "date",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "4",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Date Valid From"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Date Valid To",
+                        "name": "dateValidTo",
+                        "placeholder": "Date Valid To",
+                        "widget": "date",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "5",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Date Valid To"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionName": "Transportation Charges",
+                "sectionId": "transportationCharges",
+                "sectionTitle": "Transportation Charges",
+                "sectionType": "array",
+                "visibility": "true",
+                "sectionPosition": "2",
+                "FTLCategory":"true",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [[
+                    {
+                        "label": "Distance",
+                        "name": "distance",
+                        "placeholder": "Distance",
+                        "widget": "selectTextField",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "false",
+                        "dataSource": {
+                            "databaseName": "settylprod",
+                            "collectionName": "optionset",
+                            "optionName": "rangeCategory",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Distance"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Km",
+                        "name": "km",
+                        "placeholder": "Km",
+                        "widget": "TextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "fromTo":"false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Km"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "From",
+                        "name": "from",
+                        "placeholder": "From",
+                        "widget": "TextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "fromTo":"true",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "from"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "To",
+                        "name": "to",
+                        "placeholder": "To",
+                        "widget": "TextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "fromTo":"true",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "To"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Amount",
+                        "name": "amount",
+                        "placeholder": "Amount",
+                        "widget": "selectUnitTextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "amountUnit",
+                            "unitKeyOptionName": "currency"
+                        },
+                        "dataSource": {
+                            "databaseName": "backendbaseapi",
+                            "collectionName": "optionset",
+                            "optionName": "currency",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "USD",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Amount"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ], [
+                    {
+                        "label": "Length",
+                        "name": "length",
+                        "placeholder": "Enter Length",
+                        "widget": "selectUnitTextField",
+                        "type": "double",
+                        "isMandatory": "false",
+                        "isTriggeringField": "false",
+                        "unitKey": {
+                          "unitKeyName": "packageLengthUnitOfMeasure",
+                          "unitKeyOptionName": "unitOfMeasure"
+                        },
+                        "dataSource": {
+                          "databaseName": "",
+                          "collectionName": "optionset",
+                          "optionName": "unitOfMeasure",
+                          "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "m",
+                        "calculatedValue": "false",
+                        "fieldPosition": "8",
+                        "operationType": {
+                          "create": {
+                            "visibility": "true",
+                            "editable": "true"
+                          },
+                          "update": {
+                            "visibility": "true",
+                            "editable": "true"
+                          }
+                        }
+                      },
+                      {
+                        "label": "Width",
+                        "name": "width",
+                        "placeholder": "Enter Width",
+                        "widget": "selectUnitTextField",
+                        "type": "double",
+                        "isMandatory": "false",
+                        "isTriggeringField": "false",
+                        "unitKey": {
+                          "unitKeyName": "packageWidthUnitOfMeasure",
+                          "unitKeyOptionName": "unitOfMeasure"
+                        },
+                        "dataSource": {
+                          "databaseName": "",
+                          "collectionName": "optionset",
+                          "optionName": "unitOfMeasure",
+                          "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "m",
+                        "calculatedValue": "false",
+                        "fieldPosition": "9",
+                        "operationType": {
+                          "create": {
+                            "visibility": "true",
+                            "editable": "true"
+                          },
+                          "update": {
+                            "visibility": "true",
+                            "editable": "true"
+                          }
+                        }
+                      },
+                      {
+                        "label": "Height",
+                        "name": "height",
+                        "placeholder": "Enter Height",
+                        "widget": "selectUnitTextField",
+                        "type": "double",
+                        "isMandatory": "false",
+                        "isTriggeringField": "false",
+                        "unitKey": {
+                          "unitKeyName": "packageHeightUnitOfMeasure",
+                          "unitKeyOptionName": "unitOfMeasure"
+                        },
+                        "dataSource": {
+                          "databaseName": "",
+                          "collectionName": "optionset",
+                          "optionName": "unitOfMeasure",
+                          "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "m",
+                        "calculatedValue": "false",
+                        "fieldPosition": "10",
+                        "operationType": {
+                          "create": {
+                            "visibility": "true",
+                            "editable": "true"
+                          },
+                          "update": {
+                            "visibility": "true",
+                            "editable": "true"
+                          }
+                        }
+                      },
+                      {
+                        "label": "Total Volume",
+                        "name": "totalVolume",
+                        "placeholder": "Enter Total Volume",
+                        "widget": "selectUnitTextField",
+                        "type": "double",
+                        "isMandatory": "false",
+                        "isTriggeringField": "false",
+                        "unitKey": {
+                          "unitKeyName": "cubeUnitMeasure",
+                          "unitKeyOptionName": "unitOfVolume"
+                        },
+                        "dataSource": {
+                          "databaseName": "",
+                          "collectionName": "optionset",
+                          "optionName": "unitOfVolume",
+                          "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "cubic metre",
+                        "calculatedValue": "false",
+                        "fieldPosition": "11",
+                        "operationType": {
+                          "create": {
+                            "visibility": "true",
+                            "editable": "false"
+                          },
+                          "update": {
+                            "visibility": "true",
+                            "editable": "false"
+                          }
+                        }
+                      },
+                    {
+                        "label": "Total Weight for product",
+                        "name": "totalWeightForProduct",
+                        "placeholder": "Total Weight for product",
+                        "widget": "selectUnitTextField",
+                        "type": "double",
+                        "isMandatory": "false",
+                        "isTriggeringField": "false",
+                        "unitKey": {
+                          "unitKeyName": "packageWeightUnitOfMeasure",
+                          "unitKeyOptionName": "unitOfWeight"
+                        },
+                        "dataSource": {
+                          "databaseName": "",
+                          "collectionName": "optionset",
+                          "optionName": "unitOfWeight",
+                          "path": ""
+                        },
+                        "defaultValue": "",
+                        "defaultUnitValue": "lbs",
+                        "calculatedValue": "false",
+                        "fieldPosition": "7",
+                        "l8n": {
+                          "en_EN": {
+                            "label": "Weight"
+                          },
+                          "en_DE": {
+                            "label": "$BTFSD%*&^^&"
+                          }
+                        },
+                        "operationType": {
+                          "create": {
+                            "visibility": "true",
+                            "editable": "true"
+                          },
+                          "update": {
+                            "visibility": "true",
+                            "editable": "true"
+                          },
+                          "view": {
+                            "visibility": "false",
+                            "editable": "true"
+                          }
+                        }
+                      },
+                    {
+                        "label": "Freight Density",
+                        "name": "FreightDensity",
+                        "placeholder": "Freight Density",
+                        "widget": "selectTextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Freight Density"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Freight Class",
+                        "name": "FreightClass",
+                        "placeholder": "Freight Class",
+                        "widget": "selectTextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Freight Class"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Amount",
+                        "name": "amount",
+                        "placeholder": "Amount",
+                        "widget": "selectUnitTextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "amountUnit",
+                            "unitKeyOptionName": "currency"
+                        },
+                        "dataSource": {
+                            "databaseName": "backendbaseapi",
+                            "collectionName": "optionset",
+                            "optionName": "currency",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "USD",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Amount"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]]
+            },
+            {
+                "sectionName": "Handling Charges",
+                "sectionId": "handlingCharges",
+                "sectionTitle": "Handling Charges",
+                "sectionType": "array",
+                "visibility": "true",
+                "sectionPosition": "3",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [
+                    {
+                        "label": "Weight",
+                        "name": "weight",
+                        "placeholder": "Weight",
+                        "widget": "selectTextField",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "false",
+                        "dataSource": {
+                            "databaseName": "settylprod",
+                            "collectionName": "optionset",
+                            "optionName": "rangeCategory",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Weight"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Kg",
+                        "name": "kg",
+                        "placeholder": "Kg",
+                        "widget": "TextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "fromTo":"false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Kg"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "From",
+                        "name": "from",
+                        "placeholder": "From",
+                        "widget": "TextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "fromTo":"true",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "from"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "To",
+                        "name": "to",
+                        "placeholder": "To",
+                        "widget": "TextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "fromTo":"true",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "To"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Amount",
+                        "name": "amount",
+                        "placeholder": "Amount",
+                        "widget": "selectUnitTextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "amountUnit",
+                            "unitKeyOptionName": "currency"
+                        },
+                        "dataSource": {
+                            "databaseName": "backendbaseapi",
+                            "collectionName": "optionset",
+                            "optionName": "currency",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "USD",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Amount"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionName": "Fuel Sur Charges",
+                "sectionId": "fuelSurCharges",
+                "sectionTitle": "Fuel Sur Charges",
+                "sectionType": "array",
+                "visibility": "true",
+                "sectionPosition": "4",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [
+                    {
+                        "label": "Distance",
+                        "name": "distance",
+                        "placeholder": "Distance",
+                        "widget": "selectTextField",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "false",
+                        "dataSource": {
+                            "databaseName": "settylprod",
+                            "collectionName": "optionset",
+                            "optionName": "rangeCategory",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Distance"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Km",
+                        "name": "km",
+                        "placeholder": "Km",
+                        "widget": "TextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "fromTo":"false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Km"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "From",
+                        "name": "from",
+                        "placeholder": "From",
+                        "widget": "TextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "fromTo":"true",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "from"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "To",
+                        "name": "to",
+                        "placeholder": "To",
+                        "widget": "TextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "fromTo":"true",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "To"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Amount",
+                        "name": "amount",
+                        "placeholder": "Amount",
+                        "widget": "selectUnitTextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "amountUnit",
+                            "unitKeyOptionName": "currency"
+                        },
+                        "dataSource": {
+                            "databaseName": "backendbaseapi",
+                            "collectionName": "optionset",
+                            "optionName": "currency",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "USD",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Amount"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionName": "Toll Charges",
+                "sectionId": "tollCharges",
+                "sectionTitle": "Toll Charges",
+                "sectionType": "array",
+                "visibility": "true",
+                "sectionPosition": "5",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [
+                    {
+                        "label": "Distance",
+                        "name": "distance",
+                        "placeholder": "Distance",
+                        "widget": "selectTextField",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "false",
+                        "dataSource": {
+                            "databaseName": "settylprod",
+                            "collectionName": "optionset",
+                            "optionName": "rangeCategory",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Distance"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Km",
+                        "name": "km",
+                        "placeholder": "Km",
+                        "widget": "TextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "fromTo":"false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Km"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "From",
+                        "name": "from",
+                        "placeholder": "From",
+                        "widget": "TextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "fromTo":"true",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "from"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "To",
+                        "name": "to",
+                        "placeholder": "To",
+                        "widget": "TextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "fromTo":"true",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "To"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Amount",
+                        "name": "amount",
+                        "placeholder": "Amount",
+                        "widget": "selectUnitTextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "amountUnit",
+                            "unitKeyOptionName": "currency"
+                        },
+                        "dataSource": {
+                            "databaseName": "backendbaseapi",
+                            "collectionName": "optionset",
+                            "optionName": "currency",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "USD",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Amount"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionName": "Other Charges",
+                "sectionId": "otherCharges",
+                "sectionTitle": "Other Charges",
+                "sectionType": "array",
+                "visibility": "true",
+                "sectionPosition": "5",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [
+                    {
+                        "label": "Spending Type",
+                        "name": "spendingType",
+                        "placeholder": "Spending Type",
+                        "widget": "chargeTypefield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "false",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Spending Type"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Amount",
+                        "name": "amount",
+                        "placeholder": "Amount",
+                        "widget": "selectUnitTextField",
+                        "type": "number",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "amountUnit",
+                            "unitKeyOptionName": "currency"
+                        },
+                        "dataSource": {
+                            "databaseName": "backendbaseapi",
+                            "collectionName": "optionset",
+                            "optionName": "currency",
+                            "path": ""
+                        },
+                        "defaultValue": 0,
+                        "defaultUnitValue": "USD",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Amount"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionName": "supplyChainPartner",
+                "sectionId": "supplyChainPartner",
+                "sectionTitle": "Supply Chain Partner",
+                "sectionType": "Object",
+                "visibility": "true",
+                "sectionPosition": "4",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [
+                    {
+                        "label": "Add Your Partner Company Name",
+                        "name": "partnerCompanyName",
+                        "placeholder": "Add Your Partner Company Name",
+                        "widget": "lookupfield",
+                        "type": "array",
+                        "isMandatory": "false",
+                        "isTriggeringField": "false",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "autocompleteData",
+                            "optionName": "crmnetwork",
+                            "path": "companyName",
+                            "searchParams": "search",
+                            "domain": "http://localhost:8001",
+                            "url": "/api/usermanagement/crmnetwork/search"
+                        },
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Add Your Partner Company Name"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    "businessRules": []
+  }

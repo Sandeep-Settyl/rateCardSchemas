@@ -1,0 +1,1670 @@
+{
+    "formName": "Ocean Booking",
+    "l8n": {
+        "en_EN": {
+            "label": "Ocean Booking"
+        },
+        "en_DE": {
+            "label": ""
+        }
+    },
+    "formId": "613ee9420fda1a45fc000c4",
+    "componentName": "base",
+    "regionName": "North America",
+    "countryName": "All",
+    "companyId": [],
+    "formDetails": {
+        "sections": [
+            {
+                "sectionName": "transitInfo",
+                "sectionTitle": "Trasit Info",
+                "sectionId": "transitInfo",
+                "sectionType": "array",
+                "visibility": "true",
+                "sectionPosition": "1",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [
+                    {
+                        "label": "Port Type",
+                        "name": "portType",
+                        "placeholder": "Port Type",
+                        "widget": "lookupfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Port Type"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Point Of Contact",
+                        "name": "pointOfContact",
+                        "placeholder": "Point Of Contact",
+                        "widget": "textfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Point Of Contact"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Email Address",
+                        "name": "emailAddress",
+                        "placeholder": "Email Address",
+                        "widget": "TextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Email Address"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionName": "vessel&DeliveryInformation",
+                "sectionId": "vessel&DeliveryInformation",
+                "sectionTitle": "Vessel & Delivery Information",
+                "sectionType": "Object",
+                "visibility": "true",
+                "sectionPosition": "2",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [
+                    {
+                        "label": "Vessel Name",
+                        "name": "vesselName",
+                        "placeholder": "Vessel Name",
+                        "widget": "lookupfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Vessel Name"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Voyege Number",
+                        "name": "voyegeNumber",
+                        "placeholder": "Voyege Number",
+                        "widget": "textfield",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "false",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Voyege Number"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Shipping Line",
+                        "name": "shippingLine",
+                        "placeholder": "Shipping Line",
+                        "widget": "textfield",
+                        "isTriggeringField": "false",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Shipping Line"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Transhipment Vessel Name",
+                        "name": "transhipmentVesselName",
+                        "placeholder": "Transhipment Vessel Name",
+                        "widget": "textfield",
+                        "isTriggeringField": "false",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "4",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Transhipment Vessel Name"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Transhipment Voyage Name",
+                        "name": "transhipmentVoyageName",
+                        "placeholder": "Transhipment Voyage Name",
+                        "widget": "textfield",
+                        "isTriggeringField": "false",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "5",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Transhipment Voyage Name"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Transhipment Shipping Line",
+                        "name": "transhipmentShippingLine",
+                        "placeholder": "Transhipment Shipping Line",
+                        "widget": "textfield",
+                        "isTriggeringField": "false",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "6",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Transhipment Shipping Line"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Final Place Of Delivery",
+                        "name": "finalPlaceOfDelivery",
+                        "placeholder": "Final Place Of Delivery",
+                        "widget": "textfield",
+                        "isTriggeringField": "true",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "7",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Final Place Of Delivery"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionName": "bookingVendorDetails",
+                "sectionId": "bookingVendorDetails",
+                "sectionTitle": "Booking Vendor Details",
+                "sectionType": "Object",
+                "visibility": "true",
+                "sectionPosition": "3",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [
+                    {
+                        "label": "Business Entity Type",
+                        "name": "businessEntityType",
+                        "placeholder": "Business Entity Type",
+                        "widget": "selectTextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Business Entity Type"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Company Name",
+                        "name": "companyName",
+                        "placeholder": "Company Name",
+                        "widget": "TextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Company Name"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Point Of Contact",
+                        "name": "pointOfContact",
+                        "placeholder": "Point Of Contact",
+                        "widget": "textfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Point Of Contact"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Email Address",
+                        "name": "emailAddress",
+                        "placeholder": "Email Address",
+                        "widget": "TextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Email Address"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionName": "cargoDetails",
+                "sectionId": "cargoDetails",
+                "sectionTitle": "Cargo Details",
+                "sectionType": "Object",
+                "visibility": "true",
+                "sectionPosition": "4",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [
+                    {
+                        "label": "Load Service Type",
+                        "name": "loadServiceType",
+                        "placeholder": "Load Service Type",
+                        "widget": "lookupfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Load Service Type"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Container Type",
+                        "name": "containerType",
+                        "placeholder": "Container Type",
+                        "widget": "lookupfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Container Type"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Container Size",
+                        "name": "containerSize",
+                        "placeholder": "Container Size",
+                        "widget": "textfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Container Size"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Container Capacity",
+                        "name": "containerCapacity",
+                        "placeholder": "Container Capacity",
+                        "widget": "lookupfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "4",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Container Capacity"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Cargo Category",
+                        "name": "cargoCategory",
+                        "placeholder": "Cargo Category",
+                        "widget": "lookupfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "5",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Cargo Category"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Product Name",
+                        "name": "productName",
+                        "placeholder": "Product Name",
+                        "widget": "textfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "6",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Product Name"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "IMO Class",
+                        "name": "imoClass",
+                        "placeholder": "IMO Class",
+                        "widget": "lookupfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "7",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "IMO Class"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Minimun Temperature",
+                        "name": "minimiumTemperature",
+                        "placeholder": "Minimun Temperature",
+                        "widget": "textfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "8",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Minimun Temperature"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Maxmium Temperature",
+                        "name": "maxmiumTemperature",
+                        "placeholder": "Maxmium Temperature",
+                        "widget": "textfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "9",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Maxmium Temperature"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "UN Number",
+                        "name": "unNumber",
+                        "placeholder": "UN Number",
+                        "widget": "textfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "10",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "UN Number"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Additional Cargo Info",
+                        "name": "additionalCargoInfo",
+                        "placeholder": "Additional Cargo Info",
+                        "widget": "textarea",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "11",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Additional Cargo Info"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Manifest Remarks",
+                        "name": "manifestRemarks",
+                        "placeholder": "Manifest Remarks",
+                        "widget": "textarea",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "12",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Manifest Remarks"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Marks and Notes",
+                        "name": "marksAndNotes",
+                        "placeholder": "Marks and Notes",
+                        "widget": "textarea",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "13",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Marks and Notes"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Cargo Description",
+                        "name": "cargoDescription",
+                        "placeholder": "Cargo Description",
+                        "widget": "textarea",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "isTriggeringField": "true",
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": "",
+                            "searchParams": "",
+                            "domain": "",
+                            "url": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "14",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Cargo Description"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionName": "stackholderInformation",
+                "sectionId": "stackholderInformation",
+                "sectionTitle": "Stackholder Information",
+                "sectionType": "array",
+                "visibility": "true",
+                "sectionPosition": "5",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [
+                    {
+                        "label": "Business Entity Type",
+                        "name": "businessEntityType",
+                        "placeholder": "Business Entity Type",
+                        "widget": "selectTextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Business Entity Type"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Company Name",
+                        "name": "companyName",
+                        "placeholder": "Company Name",
+                        "widget": "TextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Company Name"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Point Of Contact",
+                        "name": "pointOfContact",
+                        "placeholder": "Point Of Contact",
+                        "widget": "textfield",
+                        "type": "string",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "2",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Point Of Contact"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Email Address",
+                        "name": "emailAddress",
+                        "placeholder": "Email Address",
+                        "widget": "TextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Email Address"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionName": "internalApprover",
+                "sectionId": "internalApprover",
+                "sectionTitle": "Internal Approver",
+                "sectionType": "Object",
+                "visibility": "true",
+                "sectionPosition": "6",
+                "l8n": {
+                    "en_EN": {
+                        "label": ""
+                    },
+                    "en_DE": {
+                        "label": ""
+                    }
+                },
+                "properties": [
+                    {
+                        "label": "Approver Name",
+                        "name": "approverName",
+                        "placeholder": "Enter Approver Name",
+                        "widget": "TextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "1",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Approver Name"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    },
+                    {
+                        "label": "Email Address",
+                        "name": "emailAddress",
+                        "placeholder": "Email Address",
+                        "widget": "TextField",
+                        "type": "String",
+                        "isMandatory": "false",
+                        "unitKey": {
+                            "unitKeyName": "",
+                            "unitKeyOptionName": ""
+                        },
+                        "dataSource": {
+                            "databaseName": "",
+                            "collectionName": "",
+                            "optionName": "",
+                            "path": ""
+                        },
+                        "defaultValue": "",
+                        "calculatedValue": "false",
+                        "fieldPosition": "3",
+                        "l8n": {
+                            "en_EN": {
+                                "label": "Email Address"
+                            },
+                            "en_DE": {
+                                "label": "$BTFSD%*&^^&"
+                            }
+                        },
+                        "operationType": {
+                            "create": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "update": {
+                                "visibility": "true",
+                                "editable": "true"
+                            },
+                            "view": {
+                                "visibility": "true",
+                                "editable": "true"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "businessRules": []
+  }

@@ -1,0 +1,238 @@
+{
+    "blNumber": {
+        "type": "string"
+    },
+    "status": {
+        "type": "string"
+    },
+    "blDate": {
+        "type": "string"
+    },
+    "blType": {
+        "type": "string"
+    },
+    "bookingID": {
+        "type": "string"
+    },
+    "shippingLine": {
+        "type": "string"
+    },
+    "vesselName": {
+        "type": "string"
+    },
+    "voyegeNumber": {
+        "type": "string"
+    },
+    "loadServiceType": {
+        "type": "string"
+    },
+    "shipmentInformation": {
+      "type": "object",
+      "properties": {
+        "portOfLoading": {
+            "type": "string"
+        },
+        "transhipmentPort": {
+            "type": "string"
+        },
+        "portOfDischarge": {
+          "type": "string"
+        },
+        "finalPlaceOfDelivery": {
+          "type": "string"
+        },
+        "issuePlace": {
+          "type": "string"
+        },
+        "prepaid/Collect": {
+          "type": "string"
+        },
+        "payableAt": {
+          "type": "string"
+        },
+        "noOfBLIssued": {
+          "type": "string"
+        },
+        "serviceMode": {
+            "type": "string"
+        }
+      }
+    },
+    "stackholderInformation": {
+        "type": "array",
+        "items": {
+          "properties": {
+            "businessEntityType": {
+              "type": "string"
+            },
+            "companyName": {
+              "type": "string"
+            },
+            "pointOfContact": {
+              "type": "string"
+            },
+            "emailAddress": {
+              "type": "string"
+            },
+            "addressDetails": {
+                "type": "string"
+              }
+          }
+        }
+    },
+    "cargoDetails": {
+        "type": "object",
+        "properties": {
+          "loadServiceType": {
+            "type": "string",
+            "optional": true
+          },
+          "containerType": {
+            "type": "string",
+            "optional": true
+          },
+          "containerSize": {
+            "type": "string",
+            "optional": true
+          },
+          "containerCapacity": {
+            "type": "string",
+            "optional": true
+          },
+          "cargoCategory": {
+            "type": "string",
+            "optional": true
+          },
+          "productName": {
+            "type": "string",
+            "optional": true
+          },
+          "imoClass": {
+            "type": "string",
+            "optional": true
+          },
+          "minimiumTemperature": {
+            "type": "string",
+            "optional": true
+          },
+          "maxmiumTemperature": {
+            "type": "string",
+            "optional": true
+          },
+          "unNumber": {
+            "type": "string",
+            "optional": true
+          },
+          "additionalCargoInfo": {
+            "type": "string",
+            "optional": true
+          },
+          "manifestRemarks": {
+              "type": "string",
+              "optional": true
+          },
+          "marksAndNotes": {
+              "type": "string",
+              "optional": true
+          },
+          "cargoDescription": {
+              "type": "string",
+              "optional": true
+            }
+    
+        }
+    },
+    "lineItemDetails": {
+        "type": "object",
+        "properties": {
+          "seqNo": {
+            "type": "string"
+          },
+          "containerNumber": {
+            "type": "string"
+          },
+          "containerType": {
+            "type": "string"
+          },
+          "LineSerialNo": {
+            "type": "string"
+          },
+          "grossWeight": {
+            "type": "string"
+          },
+          "productName": {
+            "type": "string"
+          },
+          "noOfPackages": {
+            "type": "string"
+          },
+          "handlingUnitType": {
+            "type": "string"
+          },
+          "cubicMeterCube": {
+            "type": "string"
+          },
+          "cargoStatus": {
+            "type": "string"
+          }         
+        }
+      },
+    "transactionDetails": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "shipmentType": {
+            "type": "string"
+          },
+          "containerType": {
+            "type": "string"
+          },
+          "collectPort": {
+            "type": "string"
+          },
+          "itemAmount": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "string"
+          },
+          "itemTotalAmount": {
+            "type": "string"
+          },
+          "collectionPort": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "transactionSummary": {
+        "type": "object",
+        "properties": {
+          "totalAmount": {
+            "type": "number"
+          }
+        }
+    },
+    "deliveryContactAgentDetails": {
+        "type": "object",
+        "properties": {
+          "agent": {
+            "type": "string"
+          },
+          "consigneeName": {
+            "type": "string"
+          },
+          "pointOfContact": {
+            "type": "string"
+          },
+          "emailAddress": {
+            "type": "string"
+          },
+          "addressDetails": {
+            "type": "string"
+          }
+        }
+    }
+   
+  }
+  

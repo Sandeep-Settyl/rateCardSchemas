@@ -1,0 +1,153 @@
+{
+  "transitInfo": {
+    "type": "array",
+    "items": {
+      "properties": {
+        "portType": {
+          "type": "string"
+        },
+        "pointOfContact": {
+          "type": "string"
+        },
+        "emailAddress": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "vessel&DeliveryInformation": {
+    "type": "object",
+    "properties": {
+      "vesselName": {
+        "type": "number"
+      },
+      "voyegeNumber": {
+        "type": "string"
+      },
+      "shippingLine": {
+        "type": "string"
+      },
+      "transhipmentVesselName": {
+        "type": "string"
+      },
+      "transhipmentVoyageName": {
+        "type": "string"
+      },
+      "transhipmentShippingLine": {
+        "type": "string"
+      },
+      "finalPlaceOfDelivery": {
+        "type": "string"
+      }
+    }
+  },
+  "bookingVendorDetails": {
+    "type": "object",
+    "properties": {
+      "businessEntityType": {
+        "type": "string"
+      },
+      "companyName": {
+        "type": "string"
+      },
+      "pointOfContact": {
+        "type": "string"
+      },
+      "emailAddress": {
+        "type": "string"
+      }
+    }
+  },
+  "cargoDetails": {
+    "type": "object",
+    "properties": {
+      "loadServiceType": {
+        "type": "string",
+        "optional": true
+      },
+      "containerType": {
+        "type": "string",
+        "optional": true
+      },
+      "containerSize": {
+        "type": "string",
+        "optional": true
+      },
+      "containerCapacity": {
+        "type": "string",
+        "optional": true
+      },
+      "cargoCategory": {
+        "type": "string",
+        "optional": true
+      },
+      "productName": {
+        "type": "string",
+        "optional": true
+      },
+      "imoClass": {
+        "type": "string",
+        "optional": true
+      },
+      "minimiumTemperature": {
+        "type": "string",
+        "optional": true
+      },
+      "maxmiumTemperature": {
+        "type": "string",
+        "optional": true
+      },
+      "unNumber": {
+        "type": "string",
+        "optional": true
+      },
+      "additionalCargoInfo": {
+        "type": "string",
+        "optional": true
+      },
+      "manifestRemarks": {
+          "type": "string",
+          "optional": true
+      },
+      "marksAndNotes": {
+          "type": "string",
+          "optional": true
+      },
+      "cargoDescription": {
+          "type": "string",
+          "optional": true
+        }
+
+    }
+  },
+  "stackholderInformation": {
+    "type": "array",
+    "items": {
+      "properties": {
+        "businessEntityType": {
+          "type": "string"
+        },
+        "companyName": {
+          "type": "string"
+        },
+        "pointOfContact": {
+          "type": "string"
+        },
+        "emailAddress": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "internalApprover": {
+    "type": "object",
+    "properties": {
+      "approverName": {
+        "type": "string"
+      },
+      "emailAddress": {
+        "type": "string"
+      }
+    }
+  }
+}
